@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Operations</title>
+    <style>
+        body {
+            background-color: #f2f2f2; /* Replace with the color of your choice */
+        }
+    </style>
+</head>
+<body>
+    <h1>CRUD Operations</h1>
+    <form action="server" method="POST">
+        <label for="operation">Select Operation:</label>
+        <select id="operation" name="operation">
+            <option value="create">Create</option>
+            <option value="read">Read</option>
+            <option value="update">Update</option>
+            <option value="delete">Delete</option>
+        </select><br><br>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br><br>
+        
+        <label for="language">Language:</label>
+        <input type="text" id="language" name="language"><br><br>
+        
+        <label for="framework">Framework:</label>
+        <input type="text" id="framework" name="framework"><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
